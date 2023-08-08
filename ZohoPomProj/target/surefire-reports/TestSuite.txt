@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 5, Errors: 0, Skipped: 1, Time elapsed: 3.028 s <<< FAILURE! - in TestSuite
+com.zoho.suite.testcases.creation.CreateTaskTest.createTaskTest  Time elapsed: 1.066 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'BRILAP3917', ip: '192.168.29.217'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: windows}]}]
+Capabilities {browserName: chrome, platformName: windows}
+	at com.zoho.suite.testcases.creation.CreateTaskTest.createTaskTest(CreateTaskTest.java:40)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:4444
+	at com.zoho.suite.testcases.creation.CreateTaskTest.createTaskTest(CreateTaskTest.java:40)
+Caused by: java.net.ConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:4444
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:4444
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+com.zoho.suite.testcases.creation.CreateLeadTest.createLeadTest  Time elapsed: 1.067 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'BRILAP3917', ip: '192.168.29.217'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: windows}]}]
+Capabilities {browserName: chrome, platformName: windows}
+	at com.zoho.suite.testcases.creation.CreateLeadTest.createLeadTest(CreateLeadTest.java:42)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:4444
+	at com.zoho.suite.testcases.creation.CreateLeadTest.createLeadTest(CreateLeadTest.java:42)
+Caused by: java.net.ConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:4444
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:4444
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+com.zoho.suite.testcases.login.LoginTest.loginTest  Time elapsed: 1.068 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'BRILAP3917', ip: '192.168.29.217'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: windows}]}]
+Capabilities {browserName: chrome, platformName: windows}
+	at com.zoho.suite.testcases.login.LoginTest.loginTest(LoginTest.java:68)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:4444
+	at com.zoho.suite.testcases.login.LoginTest.loginTest(LoginTest.java:68)
+Caused by: java.net.ConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:4444
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:4444
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+com.zoho.suite.testcases.login.LoginTest.loginTest  Time elapsed: 0.021 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'BRILAP3917', ip: '192.168.29.217'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: windows}]}]
+Capabilities {browserName: chrome, platformName: windows}
+	at com.zoho.suite.testcases.login.LoginTest.loginTest(LoginTest.java:68)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:4444
+	at com.zoho.suite.testcases.login.LoginTest.loginTest(LoginTest.java:68)
+Caused by: java.net.ConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:4444
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:4444
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+com.zoho.suite.testcases.login.LoginTest.loginTest  Time elapsed: 0.014 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'BRILAP3917', ip: '192.168.29.217'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: windows}]}]
+Capabilities {browserName: chrome, platformName: windows}
+	at com.zoho.suite.testcases.login.LoginTest.loginTest(LoginTest.java:68)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:4444
+	at com.zoho.suite.testcases.login.LoginTest.loginTest(LoginTest.java:68)
+Caused by: java.net.ConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:4444
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:4444
+Caused by: java.net.ConnectException: Connection refused: no further information
+
